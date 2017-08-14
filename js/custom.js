@@ -1,5 +1,5 @@
-function main(){
+$(document).ready(function main(){
 
 
-}
-$(document).ready(main());
+
+});

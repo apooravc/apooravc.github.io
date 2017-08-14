@@ -1,5 +1,103 @@
 body{
-    background-image: url("../images/waves.jpg");
+    background-image: url("../images/eve.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 100%;
+}
+
+.my-container {
+  margin: auto;
+  border: solid red 5px;
+}
+
+.hline{
+    display: block;
+    margin-bottom: 3%;
+    border-bottom: 2px solid white;
+}
+
+@media (min-width: 768px) {
+  .my-container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .my-container {
+    width: 600px;
+  }
+}
+
+
+.header{
+     border: solid green 3px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-size: 1.5em;
+     font-family: 'Cinzel', serif;
+     margin-bottom: 10px;
+}
+
+.header > a{
+    border: solid black 1px;
+}
+
+.header > a:link{
+    color:white;
+    text-decoration: none;
+}
+
+.header > a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.header > a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.header > a:active{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+
+.head-img{
+    border: solid black 4px;
+    width: 15%;
+    height: 15%;
+}
+
+.intro-container{
+    border: solid black 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.intro-container > p > a:link{
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.intro-container > p > a:visited{
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.intro-container > p > a:hover{
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.intro-container > p > a:active{
+    color: #ffff00;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
 }
