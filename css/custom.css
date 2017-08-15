@@ -1,46 +1,84 @@
 body{
-    background-image: url("../images/eve.jpg");
-    background-size: cover;
+    background-image: url(../images/eve.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     font-size: 100%;
 }
 
-.my-container {
-  margin: auto;
-  border: solid red 5px;
+.my-container{
+    margin: 0 auto;
 }
 
 .hline{
     display: block;
-    margin-bottom: 3%;
     border-bottom: 2px solid white;
 }
 
-@media (min-width: 768px) {
+@media (max-width:460px) {
   .my-container {
-    width: 600px;
+    width: 310px;
+  }
+
+  .header, .intro-container{
+     font-size: 1em;
+  }
+
+  .hline{
+    margin-bottom: 15%;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width:460px) {
   .my-container {
-    width: 600px;
+    width: 450px;
+  }
+
+  .header, .intro-container{
+     font-size: 1.12em;
+  }
+
+  .hline{
+    margin-bottom: 10%;
   }
 }
 
+@media (min-width:550px) {
+  .my-container {
+    width: 530px;
+  }
+
+  .header, .intro-container{
+     font-size: 1.3em;
+  }
+
+  .hline{
+    margin-bottom: 6%;
+  }
+}
+
+@media (min-width: 620px) {
+  .my-container {
+    width: 600px;
+  }
+
+  .header, .intro-container{
+    font-size: 1.5em;
+  }
+
+  .hline{
+    margin-bottom: 3%;
+  }
+}
 
 .header{
-     border: solid green 3px;
+
      display: flex;
      justify-content: space-around;
      align-items: center;
-     font-size: 1.5em;
      font-family: 'Cinzel', serif;
      margin-bottom: 10px;
-}
-
-.header > a{
-    border: solid black 1px;
 }
 
 .header > a:link{
@@ -72,9 +110,7 @@ body{
 }
 
 .intro-container{
-    border: solid black 2px;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
     text-align: center;
     color: black;
     padding: 10px;
