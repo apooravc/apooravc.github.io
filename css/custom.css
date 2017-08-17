@@ -1,13 +1,18 @@
-body{
-    background-image: url(../images/eve.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-size: 100%;
+html, body{
+  height: 100%;
+}
+
+body {
+            background-image: url(../images/eve1.jpg);
+            background-position: center center;
+            background-repeat:  no-repeat;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size:  cover;
+            background-color: #999;
+            font-size: 100%;
 }
 
 .my-container{
