@@ -90,7 +90,7 @@ body {
 }
 
 .header > a:link{
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ body {
 }
 
 .header > a:active{
-    color:white;
+    color: white;
     text-decoration: none;
     position: relative;
     top: 2px;
