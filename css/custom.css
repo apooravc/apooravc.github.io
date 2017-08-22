@@ -17,6 +17,7 @@ body {
 
 .my-container{
     margin: 0 auto;
+    /*border: 2px solid green;*/
 }
 
 .hline{
@@ -24,13 +25,13 @@ body {
     border-bottom: 2px solid white;
 }
 
-@media (max-width:460px) {
+@media (max-width:420px) {
   .my-container {
-    width: 310px;
+    width: 315px;
   }
 
   .header, .intro-container{
-     font-size: 1em;
+     font-size: 1.11em;
   }
 
   .hline{
@@ -38,23 +39,9 @@ body {
   }
 }
 
-@media (min-width:460px) {
+@media (min-width:420px) {
   .my-container {
-    width: 450px;
-  }
-
-  .header, .intro-container{
-     font-size: 1.12em;
-  }
-
-  .hline{
-    margin-bottom: 10%;
-  }
-}
-
-@media (min-width:550px) {
-  .my-container {
-    width: 530px;
+    width: 400px;
   }
 
   .header, .intro-container{
@@ -62,7 +49,21 @@ body {
   }
 
   .hline{
-    margin-bottom: 6%;
+    margin-bottom: 9%;
+  }
+}
+
+@media (min-width:520px) {
+  .my-container {
+    width: 500px;
+  }
+
+  .header, .intro-container{
+     font-size: 1.4em;
+  }
+
+  .hline{
+    margin-bottom: 7%;
   }
 }
 
@@ -70,7 +71,6 @@ body {
   .my-container {
     width: 600px;
   }
-
   .header, .intro-container{
     font-size: 1.5em;
   }
@@ -87,6 +87,7 @@ body {
      align-items: center;
      font-family: 'Cinzel', serif;
      margin-bottom: 10px;
+     /*border: 2px solid red;*/
 }
 
 .header > a:link{
@@ -122,6 +123,7 @@ body {
     text-align: center;
     color: black;
     padding: 10px;
+    /*border: 2px solid white;*/
 }
 
 .intro-container > p > a:link{
