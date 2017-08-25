@@ -1,0 +1,273 @@
+html, body{
+  height: 100%;
+}
+
+body {
+            background-color: #999;
+            font-size: 100%;
+}
+
+.bg-home{
+  background-image: url(../images/bg.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:  cover;
+}
+
+.home-container{
+    margin: 0 auto;
+    /*border: 2px solid green;*/
+}
+
+.home-hline{
+    display: block;
+    border-bottom: 2px solid white;
+}
+
+@media (max-width:420px) {
+  .home-container {
+    width: 315px;
+  }
+
+  .home-header, .intro-container{
+     font-size: 1.11em;
+  }
+
+  .home-hline{
+    margin-bottom: 15%;
+  }
+}
+
+@media (min-width:420px) {
+  .home-container {
+    width: 400px;
+  }
+
+  .home-header, .intro-container{
+     font-size: 1.3em;
+  }
+
+  .home-hline{
+    margin-bottom: 9%;
+  }
+}
+
+@media (min-width:520px) {
+  .home-container {
+    width: 500px;
+  }
+
+  .home-header, .intro-container{
+     font-size: 1.4em;
+  }
+
+  .home-hline{
+    margin-bottom: 7%;
+  }
+}
+
+@media (min-width: 620px) {
+  .home-container {
+    width: 600px;
+  }
+  .home-header, .intro-container{
+    font-size: 1.5em;
+  }
+
+  .home-hline{
+    margin-bottom: 3%;
+  }
+}
+
+.home-header{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Cinzel', serif;
+     margin-bottom: 10px;
+     /*border: 2px solid red;*/
+}
+
+.home-header > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.home-header > a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.home-header > a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.home-header > a:active{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+
+.head-img{
+    border: solid black 4px;
+    width: 15%;
+    height: 15%;
+}
+
+.intro-container{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    /*border: 2px solid white;*/
+}
+
+.intro-container > p > a:link{
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.intro-container > p > a:visited{
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.intro-container > p > a:hover{
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.intro-container > p > a:active{
+    color: #ffff00;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+
+/*  Projects CSS  */
+
+.projects-container{
+  /*border: 2px solid orange;*/
+}
+
+.projects-container-rhs{
+    margin: 2% auto;
+    /*border: 2px solid green;*/
+    width: 600px;
+    font-size: 1.5em;
+
+}
+
+.header{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Cinzel', serif;
+     margin-bottom: 10px;
+     /*border: 2px solid red;*/
+     font-size: 1.2em;
+}
+
+.header > a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.header > a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.header > a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.header > a:active{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+
+.projects-hline{
+    display: block;
+    border-bottom: 2px solid black;
+    margin-bottom: 10%;
+}
+
+.projects-body{
+   /*border: 2px solid brown;*/
+   text-align: center;
+   color: black;
+   padding: 10px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.left-panel{
+  border: 3px solid black;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.right-panel{
+  /*border: 2px solid yellow;*/
+}
+
+.pro1{
+  /*border: 2px solid violet;*/
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pro1-text{
+  position: absolute;
+  color: white;
+  left: 39%;
+  top: 47%;
+  display: none;
+}
+
+.dark-pro1{
+  background: black;
+}
+
+.dark-pro1 img{
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.projects-img{
+  background-image: url("../images/lining.JPG");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:  cover;
+}
+
+/*  Blog CSS  */
+
+.blog-img{
+  background-image: url("../images/flyon.JPG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:  cover;
+}
+
+
+
