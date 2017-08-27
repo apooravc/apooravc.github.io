@@ -1,6 +1,6 @@
 $(document).ready(function main(){
     $(".home-hline").addClass("animated fadeInLeft");
-    $(".projects-hline").addClass("animated fadeInRight");
+    $(".projects-hline, .blog-hline").addClass("animated fadeInRight");
     $(".anchor").addClass("animated fadeInDown");
 
     $(".pro1").hover(function(){
