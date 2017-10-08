@@ -1,4 +1,4 @@
-html, body{
+html, body {
   height: 100%;
 }
 
@@ -199,11 +199,22 @@ body {
     margin-bottom: 8%;
 }
 
-.projects-body, .blog-body{
-   /*border: 3px solid brown;*/
+.blog-body{
+   border: 3px solid brown;
    padding: 10px;
    color: black;
    font-family: 'Raleway', sans-serif;
+}
+
+.projects-body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*border: 3px solid brown;*/
+  padding: 10px;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  height: 300px;
 }
 
 .left-panel{
@@ -288,24 +299,31 @@ body {
   /*border: 3px solid yellow;*/
 }
 
-.pro1{
-  /*border: 3px solid violet;*/
+.pro1, .pro2{
+  /*border: 3px solid yellow;*/
   position: relative;
+  height: 100%;
 }
 
-.pro1-text{
+.pro1-text, .pro2-text{
   position: absolute;
   color: white;
   left: 10%;
   top: 25%;
   width: 80%;
   display: none;
-  border: 2px solid violet;
+  /*border: 2px solid violet;*/
 }
 
 .pro1-border{
   border: 3px solid black;
-  padding: 2px;
+  margin-right: 5px;
+  height: 100%;
+}
+
+.pro2-border{
+  border: 3px solid black;
+  height: 100%;
 }
 
 .dark-pro1{
