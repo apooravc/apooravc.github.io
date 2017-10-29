@@ -1,8 +1,4 @@
 $(document).ready(function main(){
-    $(".home-hline").addClass("animated fadeInLeft");
-    $(".projects-hline, .blog-hline").addClass("animated fadeInRight");
-    $(".anchor").addClass("animated fadeInDown");
-
     $(".pro1").hover(function(){
         $(".pro1").toggleClass("dark-pro1");
         $(".pro1-text").toggle();
@@ -13,4 +9,13 @@ $(document).ready(function main(){
         $(".pro2-text").toggle();
     });
 
+    $(".pro3").hover(function(){
+        $(".pro3").toggleClass("dark-pro1");
+        $(".pro3-text").toggle();
+    });
+
+    $(".pro4").hover(function(){
+        $(".pro4").toggleClass("dark-pro1");
+        $(".pro4-text").toggle();
+    });
 });
