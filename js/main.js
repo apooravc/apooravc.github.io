@@ -18,4 +18,14 @@ $(document).ready(function main(){
         $(".pro4").toggleClass("dark-pro1");
         $(".pro4-text").toggle();
     });
+
+    $(".pro5").hover(function(){
+        $(".pro5").toggleClass("dark-pro1");
+        $(".pro5-text").toggle();
+    });
+
+    $(".pro6").hover(function(){
+        $(".pro6").toggleClass("dark-pro1");
+        $(".pro6-text").toggle();
+    });
 });

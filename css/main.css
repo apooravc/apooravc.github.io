@@ -303,72 +303,72 @@ body {
 }
 
 @media(max-width: 360px){
-  .pro1, .pro3{
+  .pro1, .pro3, .pro5{
     margin-left: 3%;
   }
 
-  .pro2, .pro4{
+  .pro2, .pro4, .pro6{
     margin-left: 3%;
     margin-top: 30px;
   }
 }
 
 @media(min-width: 360px){
-  .pro1, .pro3{
+  .pro1, .pro3, .pro5{
     margin-left: 10%;
   }
 
-  .pro2, .pro4{
+  .pro2, .pro4, .pro6{
     margin-left: 10%;
     margin-top: 30px;
   }
 }
 
 @media(min-width: 450px){
-  .pro1, .pro3{
+  .pro1, .pro3, .pro5{
     margin-left: 15%;
   }
 
-  .pro2, .pro4{
+  .pro2, .pro4, .pro6{
     margin-left: 15%;
     margin-top: 30px;
   }
 }
 
 @media(min-width: 540px){
-  .pro1, .pro3{
+  .pro1, .pro3, .pro5{
     margin-left: 25%;
   }
 
-  .pro2, .pro4{
+  .pro2, .pro4, .pro6{
     margin-left: 25%;
     margin-top: 30px;
   }
 }
 
 @media(min-width: 768px){
-  .pro1, .pro3{
+  .pro1, .pro3, .pro5{
     margin-left: 25%;
   }
 
-  .pro2, .pro4{
+  .pro2, .pro4, .pro6{
     margin-left: 16%;
     margin-top: 2px;
   }
 }
 
 @media(min-width: 1120px){
-  .pro1, .pro3{
+  .pro1, .pro3, .pro5{
     margin-left: 46%;
   }
 
-  .pro2, .pro4{
+  .pro2, .pro4 ,.pro6{
     margin-left: 2%;
     margin-top: 0px;
   }
 }
 
-.pro1, .pro2, .pro3, .pro4{
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6{
   position: relative;
   width: 280px;
   height: 280px;
@@ -381,7 +381,7 @@ body {
   border: 3px solid black;
 }
 
-.pro1-text, .pro2-text, .pro3-text, .pro4-text{
+.pro1-text, .pro2-text, .pro3-text, .pro4-text, .pro5-text, .pro6-text{
   position: absolute;
   color: white;
   left: 10%;
