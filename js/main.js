@@ -1,4 +1,7 @@
-$(document).ready(function main(){
+$(window).on("load", function main(){
+    $(".home-header").addClass("animated fadeInDown");
+    $(".home-hline").addClass("animated fadeInLeft");
+    $(".intro-container").addClass("animated bounceInUp");
     $(".pro1").hover(function(){
         $(".pro1").toggleClass("dark-pro1");
         $(".pro1-text").toggle();
