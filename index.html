@@ -1,42 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Apoorv Choubey | Home</title>
+  <title>Apoorv Choubey | Home</title>
 
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="shortcut icon" href="images/favicon.ico"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows Into Light|Raleway|Poiret One">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    </head>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Abel">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body class="font">
+  <!--sidebar header-->
+  <div class="header">
+    <div class="top">
+      <div class="intro">
+        <img src="images/propic.jpg" alt="Profile picture" class="profile-img dive">
+        <h1>@apooravc</h1>
+        <p>Web &amp;<br>Python developer</p>
+      </div>
+      <div class="nav">
+        <div class="hline"></div>
+        <ul class="nav-list">
+          <li><a href="#home" class="white-ref"><i class="fa fa-home fa-lg" aria-hidden="true"></i><span class="text-right">Home</span></a></li>
+          <li><a href="#about" class="white-ref"><i class="fa fa-user fa-lg" aria-hidden="true"></i><span class="text-right">About Me</span></a></li>
+          <li><a href="#blog" class="white-ref"><i class="fa fa-book fa-lg" aria-hidden="true"></i><span class="text-right">Blog</span></a></li>
+          <li><a href="#projects" class="white-ref"><i class="fa fa-code fa-lg" aria-hidden="true"></i><span class="text-right">Projects</span></a></li>
+          <li><a href="docs/resume.pdf" class="white-ref"><i class="fa fa-terminal fa-lg" aria-hidden="true"></i><span class="text-right">Resume</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hline"></div>
+    <div class="bottom">
+      <ul class="icon-list">
+        <li><a href="https://stackoverflow.com/users/9644701/apooravc" class="white-ref"><i class="fa fa-stack-overflow fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/apoorvchoubey" class="white-ref"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/apooravc" class="white-ref"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="https://medium.com/@apoorvc" class="white-ref"><i class="fa fa-medium fa-lg" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
 
-    <body class="bg-home">
-        <div class="home-container">
-            <div class="home-header">
-                 <img class="head-img" src="images/head-img.png" alt="letter-A">
-                 <a class="anchor" href="#">HOME</a>
-                 <a class="anchor" href="projects.html">PROJECTS</a>
-                 <a class="anchor" href="blog/index.html">BLOG</a>
-                 <a class="anchor" href="docs/resume.pdf">RESUME</a>
-             </div>
-
-             <div class="home-hline"></div>
-
-             <div class="intro-container">
-                 <p>Hi, my name is Apoorv Choubey and I'm currently a third year engineering undergrad at DTU, India. I'm a beginner in web development and design. You can check out my projects <a href="projects.html">here</a>.</p>
-                 <p>I like programming and growing my skill set by working on projects. I also like learning more about Physics, Math and Astronomy. For my articles on these topics and notes, head over to my <a href="blog/index.html">blog</a>.</p>
-                 <p>I'm also available on <a href="https://github.com/apooravc">Github</a> and <a href="https://www.linkedin.com/in/apoorvchoubey">LinkedIn</a>. You can look at my <a href="docs/resume.pdf">resume</a> or contact me <a href="mailto:theapoorvs1@gmail.com">here</a>.
-             </div>
+  <!--main body-->
+  <div class="main">
+    <div class="home home-bg dive" id="home">
+      <!--sidebar toggle button-->
+      <div class="toggleButton"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></div>
+      <div class="multiline">
+        <span>Hi, I'm Apoorv and <br> I like anything involving <br> web and data.</span>
+      </div>
+      <div class="direct animated bounce"><i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></div>
+    </div>
+    <div class="about dive" id="about">
+      <h1>About Me</h1>
+      <div class="about-flex">
+        <img src="images/leaf.jpg" alt="leaf">
+        <p>My name is Apoorv Choubey and I'm currently a third year engineering undergrad at DTU, India. I like to learn and apply concepts to create something. I like learning about web development and design. You can check out my projects below. I also like learning more about Physics, Math and Astronomy. I love doing photography and playing my guitar. I also like to write and you may find some of my articles on <a href="https://medium.com/@apoorvc" class="red-ref">Medium</a>. I like to participate in Open Source development and you may checkout code of my projects on <a href="https://github.com/apooravc" class="red-ref">Github</a>. You can look at my <a href="docs/resume.pdf" class="red-ref">resume</a> or contact me <a href="mailto:theapoorvs1@gmail.com" class="red-ref">here</a>.</p>
+      </div>
+    </div>
+    <div class="blog dive" id="blog">
+      <p class="blog-text">Blog on <i class="fa fa-medium fa-lg" aria-hidden="true"></i></p>
+    </div>
+    <div class="projects dive" id="projects">
+      <h1 class="proj-text">Projects</h1>
+      <!--one-->
+      <div id="one">
+      <div class="prow">
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/ReactJS-works/works/timed-test/index.html">
+            <img src="images/pro1.JPG" alt="project" class="pimg1">
+          </a>
+          <div class="ptext">Timed Test App</div>
         </div>
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/photographs/">
+            <img src="images/pro2.JPG" alt="project" class="pimg2">
+          </a>
+          <div class="ptext">Photographs</div>
+        </div>
+        <div class="pbox">
+          <a target="_blank" href="https://github.com/apooravc/php-works/tree/master/loginRegister">
+            <img src="images/pro3.JPG" alt="project" class="pimg3">
+          </a>
+          <div class="ptext">Login-Register system</div>
+        </div>
+      </div>
+      <div class="prow">
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/Vidhyarthi/">
+            <img src="images/pro4.JPG" alt="project" class="pimg4">
+          </a>
+          <div class="ptext">Vidhyarthi</div>
+        </div>
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/ReactJS-works/works/the-state-of-reading/index.html">
+            <img src="images/pro5.JPG" alt="project" class="pimg5">
+          </a>
+          <div class="ptext">The State of Reading</div>
+        </div>
+        <div class="pbox">
+          <a target="_blank" href="https://github.com/apooravc/misc.works/tree/master/works">
+            <img src="images/pro6.JPG" alt="project" class="pimg6">
+          </a>
+          <div class="ptext">Miscellaneous</div>
+        </div>
+      </div>
+      </div>
+      <!--two-->
+      <div id="two">
+      <div class="prow">
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/ReactJS-works/works/timed-test/index.html">
+            <img src="images/pro1.JPG" alt="project" class="pimg1">
+          </a>
+          <div class="ptext">Timed Test App</div>
+        </div>
+        <div class="pbox">
+          <a target="_blank" href="https://github.com/apooravc/php-works/tree/master/loginRegister">
+            <img src="images/pro3.JPG" alt="project" class="pimg3">
+          </a>
+          <div class="ptext">Login-Register system</div>
+        </div>
+      </div>
+      <div class="prow">
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/Vidhyarthi/">
+            <img src="images/pro4.JPG" alt="project" class="pimg4">
+          </a>
+          <div class="ptext">Vidhyarthi</div>
+        </div>
+        <div class="pbox">
+          <a target="_blank" href="https://github.com/apooravc/misc.works/tree/master/works">
+            <img src="images/pro6.JPG" alt="project" class="pimg6">
+          </a>
+          <div class="ptext">Miscellaneous</div>
+        </div>
+      </div>
+      <div class="prow">
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/photographs/">
+            <img src="images/pro2.JPG" alt="project" class="pimg2">
+          </a>
+          <div class="ptext">Photographs</div>
+        </div>
+        <div class="pbox">
+          <a target="_blank" href="https://apooravc.github.io/ReactJS-works/works/the-state-of-reading/index.html">
+            <img src="images/pro5.JPG" alt="project" class="pimg5">
+          </a>
+          <div class="ptext">The State of Reading</div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- Latest compiled and minified jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Latest compiled and minified JavaScript-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  <!--footer-->
+  <div class="footer dive">
+    <p class="footer-text">Fork the project on <i class="fa fa-github fa-lg" aria-hidden="true"></i> | Customize into your own portfolio</p>
+  </div>
 
-        <script src="js/main.js"></script>
-    </body>
+
+  <!--scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>

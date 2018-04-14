@@ -1,34 +1,68 @@
-$(window).on("load", function main(){
-    $(".home-header").addClass("animated fadeInDown");
-    $(".home-hline").addClass("animated fadeInLeft");
-    $(".intro-container").addClass("animated bounceInUp");
-    $(".pro1").hover(function(){
-        $(".pro1").toggleClass("dark-pro1");
-        $(".pro1-text").toggle();
+$(document).ready(function () {
+    $(".blog").on("mousedown", function() {
+        $(".blog").css("background-color", "#fff");
+        $(".blog-text").css("color", "#03a87c");
     });
 
-    $(".pro2").hover(function(){
-        $(".pro2").toggleClass("dark-pro1");
-        $(".pro2-text").toggle();
+    $(".blog").on("mouseup", function() {
+        $(".blog").css("background-color", "#03a87c");
+        $(".blog-text").css("color", "#fff");
     });
 
-    $(".pro3").hover(function(){
-        $(".pro3").toggleClass("dark-pro1");
-        $(".pro3-text").toggle();
+    $(".blog").on("click", function() {
+        window.open("https://medium.com/@apoorvc");
     });
 
-    $(".pro4").hover(function(){
-        $(".pro4").toggleClass("dark-pro1");
-        $(".pro4-text").toggle();
+    $(".footer").on("click", function() {
+        window.open("https://github.com/apooravc/apooravc.github.io");
     });
 
-    $(".pro5").hover(function(){
-        $(".pro5").toggleClass("dark-pro1");
-        $(".pro5-text").toggle();
+    $("ul.nav-list>li").eq(0).on("click", function() {
+        $("html, body").animate({
+            scrollTop: $("#home").offset().top
+        }, 700);
     });
 
-    $(".pro6").hover(function(){
-        $(".pro6").toggleClass("dark-pro1");
-        $(".pro6-text").toggle();
+    $("ul.nav-list>li").eq(1).on("click", function() {
+        $("html, body").animate({
+            scrollTop: $("#about").offset().top
+        }, 700);
+    });
+
+    $("ul.nav-list>li").eq(2).on("click", function() {
+        $("html, body").animate({
+            scrollTop: $("#blog").offset().top
+        }, 700);
+    });
+
+    $("ul.nav-list>li").eq(3).on("click", function() {
+        $("html, body").animate({
+            scrollTop: $("#projects").offset().top
+        }, 700);
+    });
+
+
+    var visible = false;
+    $(".toggleButton").on("click", function() {
+        if (visible === false) {
+            $(".header").removeClass("slide-left").addClass("slide-right");
+            $(".main").removeClass("slide-left").addClass("slide-right");
+            $(".footer").removeClass("slide-left").addClass("slide-right");
+            visible = true;
+        } else {
+            $(".header").removeClass("slide-right").addClass("slide-left");
+            $(".main").removeClass("slide-right").addClass("slide-left");
+            $(".footer").removeClass("slide-right").addClass("slide-left");
+            visible = false;
+        }
+    });
+
+    $(".nav-list>li>a").on("click", function() {
+        $(".header").removeClass("slide-right").addClass("slide-left");
+        $(".main").removeClass("slide-right").addClass("slide-left");
+        $(".footer").removeClass("slide-right").addClass("slide-left");
+        visible = false;
     });
 });
+
+
