@@ -43,7 +43,7 @@ $(document).ready(function () {
 
 
     var visible = false;
-    $(".toggleButton").on("click", function() {
+    $("a.toggleButton").click(function() {
         if (visible === false) {
             $(".header").removeClass("slide-left").addClass("slide-right");
             $(".main").removeClass("slide-left").addClass("slide-right");
@@ -55,6 +55,7 @@ $(document).ready(function () {
             $(".footer").removeClass("slide-right").addClass("slide-left");
             visible = false;
         }
+        return false;
     });
 
     $(".nav-list>li>a").on("click", function() {
