@@ -1,6 +1,6 @@
 # Portfolio
 
-A single page portfolio website design.
+A minimalist portfolio website design.
 
 ## Installing
 
